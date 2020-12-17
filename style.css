@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -739,6 +739,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: #333333;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -753,7 +756,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(71, 66, 60, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,21 +774,30 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FFEAE0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#FFEAE0!important;
 }
 
+.tc-black {
+    color:#333333!important;
+}
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #FFEAE0;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #333333!important;
+    color: #FFEAE0!important;
 }
 
 .ltc-white {
@@ -822,7 +834,12 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+.style-img {
+    width: 345px;
+    height: 345px;
 }
 
 @media (max-width: 1024px) {
@@ -852,12 +869,16 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    
+    
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
+    
+    
 }
 
 @media (max-width: 991px) {
@@ -890,6 +911,8 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    
     .page-container {
         overflow-x: hidden;
         position: relative;
